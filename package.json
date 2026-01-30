@@ -10,9 +10,9 @@
 	},
 	"dependencies": {
 		"@hono/zod-validator": "latest",
-		"@types/uuid": "^11.0.0",
+		"@types/uuid": "latest",
 		"hono": "latest",
-		"uuid": "^13.0.0",
+		"uuid": "latest",
 		"zod": "latest"
 	},
 	"devDependencies": {
