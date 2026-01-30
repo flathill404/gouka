@@ -1,13 +1,17 @@
 {
-  "name": "gouka",
-  "scripts": {
-    "dev": "bun run --hot src/index.ts"
-  },
-  "dependencies": {
-    "hono": "^4.11.7"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "2.3.13",
-    "@types/bun": "latest"
-  }
+	"name": "gouka",
+	"scripts": {
+		"dev": "bun run --hot src/index.ts",
+		"format": "biome format --write",
+		"lint": "biome lint --write",
+		"check": "biome check --write",
+		"typecheck": "tsc --noEmit"
+	},
+	"dependencies": {
+		"hono": "^4.11.7"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.3.13",
+		"@types/bun": "latest"
+	}
 }
