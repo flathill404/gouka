@@ -8,10 +8,10 @@
 		"typecheck": "bunx tsc --noEmit"
 	},
 	"dependencies": {
-		"hono": "^4.11.7"
+		"hono": "latest"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.3.13",
+		"@biomejs/biome": "latest",
 		"@types/bun": "latest"
 	}
 }
