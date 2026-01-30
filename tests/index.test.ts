@@ -1,5 +1,5 @@
 import { describe, expect, it } from "bun:test";
-import app from "../src/index";
+import app from "@/index";
 
 describe("Basic Routes", () => {
 	it("GET / should return 200 and Hello Hono!", async () => {
