@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "bun"
+    directory: "/"
+    schedule:
+      interval: "daily"
+    groups:
+      everything:
+        patterns:
+          - "*"
+    assignees:
+      - "flathill404"
+    labels:
+      - "dependencies"
